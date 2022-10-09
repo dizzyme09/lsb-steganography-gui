@@ -275,7 +275,7 @@ class Ui_MainWindow(object):
         self.checkBox_2.stateChanged.connect(lambda: self.lineEdit_3.setEchoMode(QtWidgets.QLineEdit.Normal) if self.checkBox_2.isChecked() else self.lineEdit_3.setEchoMode(QtWidgets.QLineEdit.Password))
 
         #Menu action
-        self.actionAbout.triggered.connect(lambda: self.displayMsg('About','Created by: dizzyme09 \n\nGitHub: https://github.com/dizzyme09'))
+        self.actionAbout.triggered.connect(lambda: self.displayMsg('About','Created by: dizzyme09 \n\nGitHub: https://github.com/dizzyme09/lsb-steganography-gui'))
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
